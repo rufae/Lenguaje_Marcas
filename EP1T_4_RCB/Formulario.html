@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8"> 
+        <title>Inicio</title>
+        <link rel="icon" href="img/indice.ico">
+        <link rel="stylesheet" href="css/Index.css">
+        <link rel="stylesheet" href="css/formulario.css">
+        <script src="script/javascript.js" def></script>
+        <script src="script/Temporizador.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="Index.html">Inicio</a>
+                <a href="#Novedades.html">Novedades</a>
+                <a href="Top3.html">Top 3 </a>
+                <a href="Interpretes.html">Intérpretes</a>
+                <a href="Ranking.html">Ranking</a>
+                <button id="boton"><a href="Formulario.html">¡Suscribete!</a></button> 
+            </nav>
+        </header>
+
+        <form action="mailto:atolon@fundacionsafa.es" method="post">
+            <main>
+                <h1>¡Música gratis durante 1 año!</h1>
+                
+                <p>¿Te gustaria escuchar más musica pero no quieres gastarte el dinero?</p>
+                <p>¡Ya no tienes excusa! Gana un año de discos <b>GRATIS</b> participando en nuestro sorteo. No esperes más, solo tienes que contarnos algo de ti y suscribirte ;)</p><br>
+                
+                <h2>¡Corre! se acaba el tiempo. Tic... tac...</h2>
+                
+                <div id="column">
+                    <div class="temporizadores">
+                        <div id="days" class="letra"></div>
+                    </div>
+                
+                    <div class="temporizadores">
+                        <div id="hours-minutes-seconds" class="letra"></div>
+                    </div>
+                </div>                
+
+                <section class="cajaformulario">
+                    <p class="title">Participa en el sorteo</p>
+
+                    <fieldset class="cajas">
+                        <label class="etiquetas">NOMBRE:</label> <input name="nombre" class="controlesinput" type="text" placeholder="Introduce tu nombre" size="40" required> 
+                    </fieldset>
+
+                    <fieldset class="cajas">
+                        <label class="etiquetas">EMAIL:</label> <input name="email" type="email" class="controlesinput" placeholder="Introduce tu e-mail" size="40" required>
+                    </fieldset>
+
+                    <fieldset class="cajas">
+                        <label class="etiquetas">Nº DISPOSITIVOS:</label> <input class="controlesinput" name="dispositivos" type="number" min="0" value="0" required>
+                    </fieldset>
+
+                    <fieldset class="cajasotros">
+                        <form action="#">
+                            <label class="etiquetas">DESCARGAS/MES:</label> <input class="controlesinput" id="number" type="range" value="50" min="0" max="500" step="10" required>
+                            <span id="num">50</span>
+                        </form>
+                    </fieldset>
+
+                    <fieldset class="cajasotros">
+                        <label class="etiquetas">GÉNERO MUSICAL:</label>
+
+                        <select name="Género" class="controlopcion">
+                            <option value="Clásica">Clásica</option>
+                            <option value="Jazz">Jazz</option>
+                            <option value="Rock">Rock</option>
+                            <option value="Pop">Pop</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset class="cajasotros">
+                        <label class="etiquetas">FECHA NACIMIENTO:</label> <input type="date" value="dd/mm/aaaa" class="controlesinput" required>
+                    </fieldset>
+
+                    <fieldset class="cajasotros">
+                        <label class="etiquetas">COLOR PREFERIDO:</label> <input type="color" name="color" class="controlcolor" required>
+                    </fieldset>
+
+                    <div class="politicapriv">
+                        <input type="checkbox" value="aceptada" name="privacidad" required>*He leido y acepto la política de privacidad
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Enviar" class="enviar">
+                    </div>
+
+                </section>
+            </main>
+        </form>
+    </body>
+
+    <footer>
+        <nav>
+            <a href="#Avisolegal.html">Aviso Legal</a>
+            <a href="#Politicadeprivacidad.html">Política de privacidad</a>
+            <a href="#Politicadecookies.html"> Política de cookies </a>
+        </nav>
+    </footer>
+
+</html>

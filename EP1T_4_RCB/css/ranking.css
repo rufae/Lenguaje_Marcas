@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Montserrat-Black;
+    src: url('fonts/Montserrat-Black.ttf');
+
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url('fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+nav{
+    background-color:  #24252A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+nav a{
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: Raleway-Regular;
+}
+h1{
+    font-family: Montserrat-Black;
+    font-size: 2.5rem;
+    padding: 15px;
+    text-align: center;
+}
+#div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    max-width: 100%;
+    
+}
+#boton{
+    background-color:  #F81D44;
+    border-radius: 50px;
+    transition: 0.3s;
+    padding: 10px;
+    margin-left: 370px;
+}
+#boton:hover{
+    scale: 1.2;
+}
+

@@ -1,0 +1,95 @@
+    <!DOCTYPE html>
+    <!--En la cabecera "head" he metido el tipo de codificación con la etiqueta "meta charset" el titulo con la etiqueta "title" y la imagen de la pestaña con la etiqueta "link"-->
+    <head>
+        <meta charset="utf-8"> 
+        <title>Inicio</title>
+        <link rel="icon" href="img/indice.ico">
+        <link rel="stylesheet" href="css/Index.css">
+        <script src="script/javascript.js" defer></script>
+    </head>
+
+    <!--Creo una etiqueta "body" donde metere todos los datos e imagenes-->
+    <body>
+
+        <script>
+            onload = function(){
+                setTimeout(preguntar,15000);
+            }
+            function preguntar(){
+                respuesta = prompt("¿Cuántos enlaces crees que tiene esta pagina?");
+                let Manolo = 11;
+                if (respuesta == Manolo){
+                    alert("Muy bien, has acertado tiene 11 enlaces")
+                }
+                else if (respuesta == null){
+                    alert("Vale, ya lo pillo. No te apetece contestar... Otra vez será...")
+                }
+                else if (respuesta != Manolo){
+                    alert("Ups... me temo que te has equivocado hay 11 enlaces. Más suerte la próxima vez...")
+                }
+            }
+        </script>
+
+        <header>
+            <nav>
+                <a href="Index.html">Inicio</a>
+                <a href="#Novedades.html">Novedades</a>
+                <a href="Top3.html">Top 3 </a>
+                <a href="Interpretes.html">Intérpretes</a>
+                <a href="Ranking.html">Ranking</a>
+            <button id="boton"><a href="Formulario.html">¡Suscribete!</a></button> 
+            </nav>
+        </header>
+
+        <!--Inserto la imagen con la etiqueta "img src" y luego con otra etiqueta de tipo encabezado "h1" pongo una entrada al documento-->
+        <!--Mediante las etiquetas "p" que sirven para escribir un parrafo y la etiqueta "img src" iremos intercalando imagenes y parrafos-->
+        
+        <img id="tododiscos" src="">
+        
+        <article>
+            <div id="divprimero">
+                <h1>¿Qué puedo escuchar? </h1>
+
+                <p> Hemos creado un <a href="Top3.html">Top 3 </a> 
+
+                donde encontraras los mejores discos del mercado. No lo dudes y échale un vistazo... </p>
+
+                <img id="img" src="img/Index/fonoteca.jpg">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit augue nisl, ac sagittis felis vestibulum vitae. Vivamus eleifend dolor turpis, et luctus augue tincidunt quis. Proin pulvinar nisi velit, vitae
+                1acinia nisl aliquet vel. Fusce orci turpis, dapibus vitae varius nec, euismod sit amet nibh. Mauris dui urna, pellentesque convallis libero eu, aliquet vestibulum est. Aenean commodo a dui vitae consectetur.
+                Morbi ac lacus sed dolor viverra scelerisque quis in ex. Integer rhoncus urna vel est pellentesque, hendrerit fermentum dolor blandit. Vestibulum vehicula vulputate massa pellentesque pretium.
+                Nullam ultrices metus hendreit libero gravida, ut pellentesque  egestas. Suspendise nulla nunc, rutrum sed accumsan in, bibendum in tellus. Mauris varius scelerisque euismod. Nullam a mi odio.
+                Curabitur justo tortor, malesuada eget tincidunt ut, ultrices ut est. Curabitur tempor ex id malesuada cursus. Aenean tincidunt dui odio, ac lacinia sapien dignissim sed. Etiam lobortis metus a magna varius,
+                sed tincidunt sapien auctor. Suspendisse non semper dolor. Mauris massa quam, iaculis sit amet eros quis, molestie suscipit elit. Donec hendrerit tempus arcu, ut elementum mauris mattis a.</p>
+            </div>
+            <!--Realizo el mismo proceso para otra parte de la misma pagina usando las mismas etiquetas-->
+            <div>
+                <h1>Sorteo: pack de discos</h1>
+                
+                <p>¿No has entrado todavía del sorteo? Todavía estás a tiempo de participar. Haz click en la imagen para enterarte de cómo puedes hacerlo.</p>
+                
+                <img id="img" src="img/Index/fonoteca2.jpg">
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit augue nisl, ac sagittis felis vestibulum vitae. Vivamus eleifend dolor turpis, et luctus augue tincidunt quis. Proin pulvinar nisi velit, vitae
+                1acinia nisl aliquet vel. Fusce orci turpis, dapibus vitae varius nec, euismod sit amet nibh. Mauris dui urna, pellentesque convallis libero eu, aliquet vestibulum est. Aenean commodo a dui vitae consectetur.
+                Morbi ac lacus sed dolor viverra scelerisque quis in ex. Integer rhoncus urna vel est pellentesque, hendrerit fermentum dolor blandit. Vestibulum vehicula vulputate massa pellentesque pretium.
+                Nullam ultrices metus hendreit libero gravida, ut pellentesque  egestas. Suspendise nulla nunc, rutrum sed accumsan in, bibendum in tellus. Mauris varius scelerisque euismod. Nullam a mi odio.
+                Curabitur justo tortor, malesuada eget tincidunt ut, ultrices ut est. Curabitur tempor ex id malesuada cursus. Aenean tincidunt dui odio, ac lacinia sapien dignissim sed. Etiam lobortis metus a magna varius,
+                sed tincidunt sapien auctor. Suspendisse non semper dolor. Mauris massa quam, iaculis sit amet eros quis, molestie suscipit elit. Donec hendrerit tempus arcu, ut elementum mauris mattis a.</p>
+            </div>
+        </article>
+        
+        <footer>
+
+            <nav>
+                <a href="#Avisolegal.html">Aviso Legal</a>
+                <a href="#Politicadeprivacidad.html">Política de privacidad</a>
+                <a href="#Politicadecookies.html"> Política de cookies </a>
+            </nav>
+
+        </footer>
+
+    </body>
+</html>
+
