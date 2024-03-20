@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!--
+        <xs:element> Sirve para las etiquetas en general</xs:element>
+        <xs:complexType> Sirve para indicar que la etiqueta va a tener etiquetas hijas
+        <xs:sequence> Indica que va a haber etiquetas en el orden marcado
+        _______________________________________________________________________________________
+
+        <xs:simpleType> Esta etiqueta se utiliza para definir un tipo de datos simple
+        <xs:restriction> Se utiliza para restringir o limitar las características de un tipo de datos simple
+        <xs:simpleContent>: Esta etiqueta se utiliza para definir un tipo de datos complejo que consiste en un solo valor simple y, opcionalmente, atributos adicionales. Se usa cuando necesitas extender un tipo simple con atributos adicionales.
+        <xs:extension> Se utiliza para extender un tipo de datos simple con atributos adicionales.
+        <xs:attribute> Esta etiqueta se utiliza para definir un atributo dentro de un tipo de datos complejo o simple.
+        <xs:enumeration> Se utiliza para especificar una lista de valores permitidos para un tipo de datos simple.
+   -->
+    <xs:element name="recipe">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="tittle"/>
+
+                <xs:element name="recipeinfo">
+                    <xs:complexType>
+                      <xs:sequence>
+                          <xs:element name="blurb"/>
+                          <xs:element name="author"/>
+                          <xs:element name="yield"/>
+                          <xs:element name="preptime"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="ingredientlist">
+                      <xs:complexType>
+                          <xs:sequence>
+
+                              <xs:element name="ingredient">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="quantity"/>
+                                        <xs:element name="unit"/>
+                                        <xs:element name="fooditem"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                              </xs:element>
+
+                          </xs:sequence>
+                      </xs:complexType>
+                </xs:element>
+
+                <xs:element name="preparation"/>
+
+                <xs:element name="serving"/>
+
+                <xs:element name="notes"/>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

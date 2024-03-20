@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<libreria>
+	<libro categoria="Cocina">
+		<titulo idio="en">Everyday Italian</titulo>
+		<autor>Giada De Laurentiis</autor>
+		<año>2005</año>
+		<paginas>200</paginas>
+		<precio>30.00</precio>
+	</libro>
+	<libro categoria="Infantil">
+		<titulo idio="en">Harry Potter</titulo>
+		<autor>J K. Rowling</autor>
+		<año>2005</año>
+		<paginas>120</paginas>
+		<precio>29.99</precio>
+	</libro>
+	<libro categoria="Web">
+		<titulo idio="en">XQuery Kick Start</titulo>
+		<autor>James McGovern</autor>
+		<autor>Per Bothner</autor>
+		<autor>Kurt Cagle</autor>
+		<autor>James Linn</autor>
+		<autor>Vaidyanathan Nagarajan</autor>
+		<año>2003</año>
+		<paginas>527</paginas>
+		<precio>49.99</precio>
+	</libro>
+	<libro categoria="Web">
+		<titulo idio="en">Learning XML</titulo>
+		<autor>Erik T. Ray</autor>
+		<año>2003</año>
+		<paginas>136</paginas>
+		<precio>39.95</precio>
+	</libro>
+	<!-- Diez libros más -->
+	<libro categoria="Fantasía">
+		<titulo idio="en">El Señor de los Anillos</titulo>
+		<autor>J.R.R. Tolkien</autor>
+		<año>1954</año>
+		<paginas>1178</paginas>
+		<precio>39.99</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">Las Crónicas de Narnia</titulo>
+		<autor>C.S. Lewis</autor>
+		<año>1950</año>
+		<paginas>767</paginas>
+		<precio>35.50</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">El Nombre del Viento</titulo>
+		<autor>Patrick Rothfuss</autor>
+		<año>2007</año>
+		<paginas>662</paginas>
+		<precio>25.99</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">El Hobbit</titulo>
+		<autor>J.R.R. Tolkien</autor>
+		<año>1937</año>
+		<paginas>310</paginas>
+		<precio>29.99</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">Geronimo Stilton: El Reino de la Fantasía</titulo>
+		<autor>Geronimo Stilton</autor>
+		<año>2003</año>
+		<paginas>220</paginas>
+		<precio>19.99</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">El León, la Bruja y el Armario</titulo>
+		<autor>C.S. Lewis</autor>
+		<año>1950</año>
+		<paginas>256</paginas>
+		<precio>20.50</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">El Señor de los Anillos: Las Dos Torres</titulo>
+		<autor>J.R.R. Tolkien</autor>
+		<año>1954</año>
+		<paginas>923</paginas>
+		<precio>34.99</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">Percy Jackson y el Ladrón del Rayo</titulo>
+		<autor>Rick Riordan</autor>
+		<año>2005</año>
+		<paginas>375</paginas>
+		<precio>23.00</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">El Código Da Vinci</titulo>
+		<autor>Dan Brown</autor>
+		<año>2003</año>
+		<paginas>454</paginas>
+		<precio>34.99</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">El Alquimista</titulo>
+		<autor>Paulo Coelho</autor>
+		<año>1988</año>
+		<paginas>197</paginas>
+		<precio>20.00</precio>
+	</libro>
+</libreria>

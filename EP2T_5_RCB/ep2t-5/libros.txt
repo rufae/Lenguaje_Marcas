@@ -1,0 +1,92 @@
+EJERCICIO 1 LIBROS
+
+1a) Meter 10 libros a mano en el archivo xml
+
+1b) for $x in doc("C:\Users\rafae\Desktop\EP2T_5_RCB\ep2t-5\libros_ep2t5a.xml")//libreria return data($x)
+
+1c) for $x in doc("C:\Users\rafae\Desktop\EP2T_5_RCB\ep2t-5\libros_ep2t5a.xml")//libreria/libro/titulo return $x
+
+1d) for $x in doc("C:\Users\rafae\Desktop\EP2T_5_RCB\ep2t-5\libros_ep2t5a.xml")//libreria/libro where $x/paginas>500 return $x
+
+1e) <html>
+  <body>
+    <table>
+      <tr>
+        <td>Título</td>
+        <td>Autor</td>
+      </tr>
+
+{
+  for $x in 
+  doc("C:\Users\rafae\Desktop\EP2T_5_RCB\ep2t-5\libros_ep2t5a.xml")//libreria/libro
+  let $titulo:=$x/titulo
+  let $autor:=$x/autor
+  return
+  <tr>
+    <td>{data($titulo)}</td>
+    <td>{data($autor)}</td>
+  </tr>
+}
+
+    </table>
+  </body>
+</html>
+
+
+1f) <html>
+  <body>
+    <table>
+      <tr>
+        <td>Título</td>
+        <td>Autor</td>
+      </tr>
+
+{
+  for $x in 
+  doc("C:\Users\rafae\Desktop\EP2T_5_RCB\ep2t-5\libros_ep2t5a.xml")//libreria/libro
+  let $titulo:=$x/titulo
+  let $autor:=$x/autor
+  where $x/paginas>150
+  return
+  <tr>
+    <td>{data($titulo)}</td>
+    <td>{data($autor)}</td>
+  </tr>
+}
+
+    </table>
+  </body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+EJERCICIO 2 ENVIO
+
+2a) for $x in doc("C:\Users\rafae\Desktop\EP2T_5_RCB\ep2t-5\envio_ep2t5b.xml")//envio/poliza[1]/asegurado
+return <newaseg>
+           <nombre>{ data($x/@nombre) }</nombre>
+           <apellidos>{ data($x/@apellidos) }</apellidos>
+       </newaseg>
+
+2b) for $x in doc("C:\Users\rafae\Desktop\EP2T_5_RCB\ep2t-5\envio_ep2t5b.xml")//envio
+let $numenvio:= $x/poliza/asegurado
+return <totalaseg>{count($numenvio)}</totalaseg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

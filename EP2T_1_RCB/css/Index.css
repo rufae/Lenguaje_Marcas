@@ -1,0 +1,115 @@
+/*Utilizo la etiqueta @Font-face para exportar al css el tipo de letra que quiero*/
+@font-face {
+    font-family: Montserrat-Black;
+    src: url('fonts/Montserrat-Black.ttf');
+
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url('fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+/*Le voy agregando a las partes que quiero las caracteristicas necesarias*/
+/*El nav lo utilizaremos para la barra superior e inferior*/
+
+nav{
+    background-color:  #24252A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+/*El nav a es para las letras escritas en el nav*/
+
+nav a{
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: Raleway-Regular;
+}
+
+/*Botón lo utilizo para el enlace Suscribete el cual se vera diferente al resto*/
+/*La # lo utilizo para utilizarlo como "id" al igual que el punto lo utilizare para "class"*/
+
+#boton{
+    background-color:  #F81D44;
+    border-radius: 50px;
+    transition: 0.3s;
+    padding: 10px;
+    margin-left: 370px;
+}
+
+/*Botón:hover lo utilizo para la transición de la imagen cuando me posiciono sobre ella*/
+
+#boton:hover{
+    scale: 1.2;
+}
+
+/*El h1 para el tipo de encabezado 1*/
+
+h1{
+    font-family: Montserrat-Black;
+    font-size: 2.5rem;
+    padding: 15px;
+    text-align: center;
+}
+
+/*Al igual que en el botón, hare para la imagen*/
+
+#img{
+    width: 450px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    cursor: crosshair;
+}
+
+#img:hover{
+    scale:1.05;
+}
+
+/*tododiscos lo utilizo para la primera imagen*/
+
+#tododiscos{
+    display: block;
+    margin: auto;
+    width: 1000px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*El > lo utilizo para indicar donde se encuentra la etiqueta que quiero cambiar*/
+
+article>div{
+    width: 50%;
+}
+
+div{
+    max-width: 450px;
+    align-content: center;
+    align-items: center;
+}
+
+#divprimero{
+    max-width: 450px;
+    align-content: center;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+p{
+    text-align: justify;
+    font-family: Montserrat-Regular;
+}

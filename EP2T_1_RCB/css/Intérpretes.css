@@ -1,0 +1,50 @@
+#checkbox{
+    max-width: 90%;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 15px;
+    border: solid #c9c9c9;
+    box-shadow:#999 4px 4px 4px;
+}
+
+h2{
+    text-align: center;
+}
+
+#imagenintérprete{
+    width: 40%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 25px;
+}
+
+p{
+    text-align: justify;
+    max-width: 55%;
+    padding-left: 520px;
+}
+
+#imagenesdiscos{
+    width: 20%;
+    max-width: 150px;
+    max-height: 300px;
+    padding-inline-start: 40px;
+    padding-left: 8%;
+}
+#imagenesdiscos2{
+    width: 20%;
+    max-width: 150px;
+    max-height: 300px;
+    padding-inline-start: 40px;
+    margin-left: 10%;
+}
+#main{
+    width: 85%;
+    margin: auto;
+}
+
+.fotos{
+    align-items: center;
+    margin: 40px;
+    width: 100%;
+}

@@ -1,0 +1,124 @@
+/*Import del estilo Raleway atraves de un enlace irecto de internet*/
+@import url('https:fonts.googleapis.com/css?family=Raleway');
+
+/*Import del estilo MontSerrat-Black desde la carpeta fonts*/
+@font-face {
+    font-family: MontSerrat-Black;
+    src: url('fonts/Montserrat-Black.ttf');
+}
+
+/*Import del estilo MontSerrat-Regular desde la carpeta fonts*/
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Franjas del menu superior e inferior*/
+nav{
+    background-color: #24252A;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+/*Items del menu superior e inferior*/
+nav a{
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: Raleway;
+}
+/*Boton del menu superior*/
+button{
+    background-color: #F81D44;
+    border: 0;
+    border-radius: 50px;
+    padding: 10px;
+    color: #FFFFFF;
+    transition: 0.3s;
+    
+}
+
+/*Aumento de la escala*/
+button:hover {
+    scale: 120%;
+    color: #FFFFFF;
+}
+
+/*Division de columnas*/
+.bloques{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/*Tamaño y posición de columnas*/
+.column{
+    max-width: 450px;
+    align-content: center;
+}
+
+/*Imagenes y aumento de la escala*/
+.imge{
+    width: 450px;
+    margin-top: 15px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.imge:hover{
+    scale: 105%;
+    cursor: grab;
+}
+
+/*Encabezado 1 con fuente*/
+.enc1{
+    font-family: MontSerrat-Black;
+    font-size: 2.5rem;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+/*Textos con la fuente*/
+.par{
+    font-family: Montserrat-Regular;
+    text-align: justify;
+    size-adjust: inherit;
+}
+
+.imgPr{
+    padding-top: 10px;
+    padding-left: 200px;
+    width: 1000px;
+}
+
+.imgPr:hover{
+    scale: 105%;
+}
+
+#tablafor{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#h1ta{
+    font-family:  MontSerrat-Black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}

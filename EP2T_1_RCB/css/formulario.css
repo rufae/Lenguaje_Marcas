@@ -1,0 +1,128 @@
+main{
+    width: 60%;
+    margin: auto;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat-Black;
+}
+p{
+ margin-top: 0%;
+ margin-bottom: 0%;
+ width: 70%;
+ margin-left: 15%;
+}
+.cajaformulario{
+    max-width: 63%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid #000000;
+    border-width: 2px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.title{
+    max-width: 100%;
+    font-family: Montserrat-Black;
+    text-align: center;
+    color: #333333;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cajas{
+    border-radius: 13px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-width: 1px;
+    border: solid #c9c9c9;
+}
+.cajasotros{
+    align-content: center;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border: solid #c9c9c9;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.etiquetas{
+    font-family: Raleway-Regular;
+    text-align: center;
+    color: #393939;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.temporizadores{
+    padding: 10px;
+    border: 2px;
+    border: solid black;
+    box-shadow: 0 0 10px #c9c9c9;
+    border-radius: 7px;
+    background-color: #F81D44;
+    margin: 15px;
+    margin-left: -75px;
+    max-width: 60%;
+}
+.letra{
+    color: white;
+    font-size: 30px;
+}
+.politicapriv{
+    font-family: sans-serif;
+    color: gray;
+    font-size: 0.7rem;
+}
+.enviar{
+    text-align: center;
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 100%;
+    height: 60px;
+    background-color:#333333 ;
+    border-radius: 50px;
+    font-family:Montserrat-Regular;
+    font-size: 1.3rem ;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.enviar:hover{
+    transition-duration: 0.4s ;
+    cursor: pointer;
+    background-color: #F81D44;
+}
+.controlesinput{
+    background-color: lavender;
+    margin-left: 10px;
+    border: none;
+}
+.controlopcion{
+    background-color:lightgray;
+    margin-left: 10px;
+    border-radius: 3px;
+    width: 20%;
+}
+.controlcolor{
+    background-color: lavender;
+    margin-left: 10px;
+    border: none;
+    width: 20%;
+}
+#column{
+    display: flex;
+    margin: auto;
+    margin-left: 42%;
+}
+input [type="range"] ::after{
+    content: attr(value);
+}

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Hoj1Cine.xsl"?>
+<!--
+<?xml-stylesheet type="text/xsl" href="Hoj1Cine.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Hoj2Cine.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Hoj3Cine.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Hoj4Cine.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Hoj5Cine.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Hoj6Cine.xsl"?>
+-->
+<Cine>
+	<Películas>
+		<Película Género="Drama" Año="1996">
+			<Título Idioma="Español">El Cartero (y Pablo Neruda)</Título>
+			<Título Idioma="Italiano">Il Postino</Título>
+			<Duración Magnitud="minutos">108</Duración>
+			<Director País="Italia">Michael Radford</Director>
+			<Intérprete>Philippe Noiret</Intérprete>
+			<Intérprete>Massimo Troisi</Intérprete>
+			<Intérprete>Maria Grazia Cucinotta</Intérprete>
+			<Argumento>
+                          La vida de una pequeña isla italiana se verá alterada por la llegada del ilustre poeta chileno Pablo Neruda, forzado al exilio. Con el tiempo entabla amistad con el cartero que le lleva la correspondencia, surgiendo en éste el gusto y aprecio por la poesía.
+                    </Argumento>
+		</Película>
+		<Película Género="Comedia" Año="1989">
+			<Título Idioma="Español">Cinema Paradiso</Título>
+			<Título Idioma="Italiano">Cinema Paradiso</Título>
+			<Duración Magnitud="minutos">124</Duración>
+			<Director País="Italia">Guiseppe Tornatore</Director>
+			<Intérprete>Philippe Noiret</Intérprete>
+			<Intérprete>Jacques Perrin</Intérprete>
+			<Argumento>
+                          Un famoso director de cine de la localidad siciliana de Giancaldo, vuelve tras muchos años al funeral de Alfredo, que fuera proyectista del Cinema Paradiso y con quien compartió vivencias y películas. Su regreso provoca en él una serie de recuerdos.
+                    </Argumento>
+		</Película>
+		<Película Género="Suspense" Año="1992">
+			<Título Idioma="Español">Los Otros</Título>
+			<Título Idioma="Inglés">The Others</Título>
+			<Duración Magnitud="minutos">140</Duración>
+			<Director País="España">Alejandro Amenábar</Director>
+			<Intérprete>Nicole Kidman</Intérprete>
+			<Argumento>
+                          Una madre con sus dos hijos enfermos llegan para vivir en una casa lúgubre de un pueblo inglés. La contratación del servicio desencadena una serie de acontecimientos de difícil explicación. 
+                    </Argumento>
+		</Película>
+		<Película Género="Comedia" Año="1992">
+			<Título Idioma="Español">Belle Epoque</Título>
+			<Título Idioma="Inglés">Belle Epoque</Título>
+			<Duración Magnitud="minutos">137</Duración>
+			<Director País="España">Fernando Trueba</Director>
+			<Intérprete>Fernando Fernán Gómez</Intérprete>
+			<Intérprete>Jorge Sanz</Intérprete>
+			<Intérprete>Maribel Verdú</Intérprete>
+			<Intérprete>Ariadna Gil</Intérprete>
+			<Intérprete>Penélope Cruz</Intérprete>
+			<Argumento>
+                          Un joven deserta del ejército y viene a parar a casa de un viejo republicano. La habilidad gastronómica del joven despierta la admiración del viejo, que le invitará a quedarse unos días. La visita veraniega que realizan las hijas del viejo, ayudan a la decisión del joven de aceptar la invitación.
+                    </Argumento>
+		</Película>
+		<Película Género="Comedia" Año="1998">
+			<Título Idioma="Español">La cena de los idiotas</Título>
+			<Título Idioma="Francés">Le diner des cons</Título>
+			<Duración Magnitud="minutos">77</Duración>
+			<Director País="Francia">Alain Poiré</Director>
+			<Intérprete>Thierry Lhermitte</Intérprete>
+			<Intérprete>Jacques Villeret</Intérprete>
+			<Argumento>
+                          Le mercredi, pour Pierre Brochant et ses amis, c´est le jour du "DINER DE CONS". Le principe est simple : chacun invite un con le plus spectaculaire est déclaré vainqueur.
+                    </Argumento>
+		</Película>
+		<Película Género="Comedia" Año="1997">
+			<Título Idioma="Español">Full Monty</Título>
+			<Título Idioma="Inglés">Full Monty</Título>
+			<Duración Magnitud="minutos">92</Duración>
+			<Director País="Inglaterra">Peter Cattaneo</Director>
+			<Intérprete>Robert Carlyle</Intérprete>
+			<Intérprete>Tom Wilkinson</Intérprete>
+			<Intérprete>Mark Addy</Intérprete>
+			<Argumento>
+                          Gaz trama un plan para que él y sus amigos, cinco trabajadores del acero en paro de Sheffield, ganen mucho dinero rápidamente. Les convence de que un strip-tease masculino levantará pasiones y les llenará los bolsillos, por lo que merece la pena ¡ir a por todas!
+                    </Argumento>
+		</Película>
+		<Película Género="Drama" Año="1989">
+			<Título Idioma="Español">Mi Padre</Título>
+			<Título Idioma="Inglés"/>
+			<Duración Magnitud="minutos">115</Duración>
+			<Director País="USA">Gary David Goldberg</Director>
+			<Intérprete>Jack Lemmon</Intérprete>
+			<Intérprete>Ted Danson</Intérprete>
+			<Argumento>
+                          Jake, un anciano con problemas de salud, pierde a su mujer. A la vista de la situación, su hijo, ejecutivo sin tiempo, tras mucho pensárselo decide ingresar a su padre en una residencia. No contento con la atención recibida, rompe su esquema de vida para poder cuidar de él.
+                    </Argumento>
+		</Película>
+		<Película Género="Acción" Año="1992">
+			<Título Idioma="Español">Fisgones</Título>
+			<Título Idioma="Inglés">Sneakers</Título>
+			<Duración Magnitud="minutos">125</Duración>
+			<Director País="USA">Phil Alden Robinson</Director>
+			<Intérprete>Robert Redford</Intérprete>
+			<Intérprete>Sidney Poitier</Intérprete>
+			<Argumento>
+                          Un grupo de expertos en diversas tecnologías se dedica a la lucrativa tarea de probar hasta el límite los sistemas de seguridad de grandes empresas, para proponer sus mejoras. Se verán involucrados en un enredo de espionaje que los llevará a situaciones excitantes, no exentas de peligro.
+                    </Argumento>
+		</Película>
+		<Película Género="Comedia" Año="1991">
+			<Título Idioma="Español">Mujeres al borde de un ataque de nervios</Título>
+			<Duración Magnitud="minutos">108</Duración>
+			<Director País="España">Pedro Almodóvar</Director>
+			<Intérprete>Carmen Maura</Intérprete>
+			<Intérprete>Antonio Banderas</Intérprete>
+			<Intérprete>Julieta Serrano</Intérprete>
+			<Argumento>
+                          Situaciones hábilmente entremezcladas que llevan a situaciones límite a una serie de mujeres cuyas vidas tienes más sombras que luces.
+                    </Argumento>
+		</Película>
+		<Película Género="Acción" Año="2002">
+			<Título Idioma="Español">John Q</Título>
+			<Título Idioma="Inglés">John Q</Título>
+			<Duración Magnitud="minutos">120</Duración>
+			<Director País="USA">Paul Verhoeven</Director>
+			<Intérprete>Denzel Washington</Intérprete>
+			<Intérprete>Robert Duvall</Intérprete>
+			<Intérprete>Anna Heche</Intérprete>
+			<Argumento>
+                          Una familia con problemas económicos, tiene que afrontar la grave enfermedad de su hijo pequeño ante la negativa de su seguro a hacer frente a los gastos derivados. La desesperación lleva a John Q a una acción extrema.
+                    </Argumento>
+		</Película>
+		<Película Género="Drama" Año="1991">
+			<Título Idioma="Español">El Club de los Poetas Muertos</Título>
+			<Título Idioma="Inglés">Dead Poets Society</Título>
+			<Duración Magnitud="minutos">124</Duración>
+			<Director País="USA">Peter Weir</Director>
+			<Intérprete>Robin Williams</Intérprete>
+			<Argumento>
+                          Un estricto colegio masculino americano, recluta como profesor de Literatura a un ex-alumno. Éste imprime a sus clases un tono especial que hace despertar en los alumnos el gusto por aprender más allá de las clases.
+                    </Argumento>
+		</Película>
+		<Película Género="Drama" Año="1996">
+			<Título Idioma="Español">Sostiene Pereira</Título>
+			<Título Idioma="Portugués"/>
+			<Duración Magnitud="minutos">104</Duración>
+			<Director País="Portugal">Roberto Faenza</Director>
+			<Intérprete>Marcello Mastroianni</Intérprete>
+			<Intérprete>Daniel Auteuil</Intérprete>
+			<Intérprete>Stefano Dionisi</Intérprete>
+			<Argumento>
+                          Lisboa, 1938. La opresiva dictadura de Salazar, la guerra civil española y el fascismo italiano están en pleno apogeo. En esta Europa recorrida por el totalitarismo, Pereira, un viejo periodista que vive en un cómodo y rutinario conformismo , está dedicado a escribir la página cultural de un mediocre periódico.
+                    </Argumento>
+		</Película>
+		<Película Género="Drama" Año="1999">
+			<Título Idioma="Español">El Abuelo</Título>
+			<Duración Magnitud="minutos">147</Duración>
+			<Director País="España">Jose Luis Garci</Director>
+			<Intérprete>Fernando Fernán Gómez</Intérprete>
+			<Intérprete>Rafael Alonso</Intérprete>
+			<Intérprete>Cayetana Guillén Cuervo</Intérprete>
+			<Intérprete>Agustín González</Intérprete>
+			<Argumento>
+                          Don Rodrigo de Arista-Potestad, Conde de Albrit, símbolo de una familia aristocrática, tras una larga estancia en América regresa a su pueblo dispuesto a desvelar un gran secreto. Pronto descubrirá el resentimiento de un pueblo desagradecido, el poder del honor de los Arista-Potestad y el auténtico valor de su verdadera familia.
+                    </Argumento>
+		</Película>
+		<Película Género="Drama" Año="2000">
+			<Título Idioma="Español">La vida es bella</Título>
+			<Título Idioma="Italiano">La vita e bella</Título>
+			<Duración Magnitud="minutos">135</Duración>
+			<Director País="Italia">Roberto Benigni</Director>
+			<Intérprete>Roberto Benigni</Intérprete>
+			<Argumento>
+                          La terrible y tierna historia de una familia judía confinada en un campo de concentración durante la segunda guerra mundial.
+                    </Argumento>
+		</Película>
+		<Película Género="Suspense" Año="1995">
+			<Título Idioma="Español">La Red</Título>
+			<Título Idioma="Inglés">The Net</Título>
+			<Duración Magnitud="minutos">110</Duración>
+			<Director País="USA">Irwin Winkler</Director>
+			<Intérprete>Sandra Bullock</Intérprete>
+			<Argumento>
+                          Angela Bennett es una analista informática especializada en detectar virus y anomalías en los sistemas. Su rutina diaria se convierte en una pesadilla al descubrir un programa de Internet que permite al usuario acceder a bases de datos secretas. Su vida corre un gran peligro, Angela se encuentra en un mortífera tela de araña de corrupción y conspiración, ella está atrapada en ... LA RED.
+                    </Argumento>
+		</Película>
+		<Película Género="Suspense" Año="1991">
+			<Título Idioma="Español">El príncipe de las mareas</Título>
+			<Título Idioma="Inglés">The prince of tides</Título>
+			<Duración Magnitud="minutos">134</Duración>
+			<Director País="USA">Barbra Streisand</Director>
+			<Intérprete>Barbra Streisand</Intérprete>
+			<Intérprete>Nick Nolte</Intérprete>
+			<Argumento>
+                         Tras una infancia traumática que no ha conseguido olvidar, Tom Wingo se ve obligado a revivir su pasado cuando viaja a Nueva York a petición de la doctora Susan Lowenstein, una prestigiosa psiquiatra que atiende a la hermana de Tom después de que ésta intentara suicidarse varias veces.
+                    </Argumento>
+		</Película>
+		<Película Género="Comedia" Año="2000">
+			<Título Idioma="Español">Salir del armario</Título>
+			<Título Idioma="Francés">Sortir du placard</Título>
+			<Duración Magnitud="minutos">103</Duración>
+			<Director País="Francia">Francis Veber</Director>
+			<Intérprete>Daniel Auteuil</Intérprete>
+			<Intérprete>Gerard Dépardieu</Intérprete>
+			<Intérprete>Thierry Lhermitte</Intérprete>
+			<Argumento>
+                          Una empresa decide echar a un trabajador del departamento de Administración. En su desesperación acepta el consejo de hacerse pasar por gay. La empresa echa marcha atrás para evitar mala imagen y las peripecias se suceden llegando a situaciones delirantes. 
+                    </Argumento>
+		</Película>
+	</Películas>
+</Cine>

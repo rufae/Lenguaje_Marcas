@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+    
+    <head>
+        <meta charset="utf-8"> 
+        <title>Inicio</title>
+        <link rel="icon" href="img/indice.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/themes/redmond/jquery-ui.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.5/css/ui.jqgrid.min.css">
+        <link rel="stylesheet" href="css/ranking.css">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.5/jquery.jqgrid.min.js"></script>
+        <script>
+
+            $(function () {
+                "use strict";
+                $("#grid").jqGrid({
+                    colModel: [
+                        { name: "Intérprete", width : 150},
+                        { name: "Canción", width : 150},
+                        { name: "NºDescargas", width : 150},
+                        { name: "Precio", width : 150},
+                        { name: "Versionado", template : "booleanCheckbox", width : 150},
+                        { name: "ÚltDescarga", width : 150}
+                    ],
+                    data: [
+                        { id: 10, Intérprete: "Joan Manuel Serrat", Canción: "Mediterraneo", NºDescargas: "1334987", Precio: "1.25", Versionado: false, ÚltDescarga: "02-Sep-2021" },
+                        { id: 20, Intérprete: "Natalia Dicenta", Canción: "Summertime", NºDescargas: "827994", Precio: "1.05", Versionado: true, ÚltDescarga: "12-Oct-2021" },
+                        { id: 30, Intérprete: "Andrea Mortis Quartet", Canción: "He's funny that way", NºDescargas: "672910", Precio: "1.25", Versionado: true, ÚltDescarga: "28-Jul-2021" },
+                        { id: 40, Intérprete: "Los Ronaldos", Canción: "Adiós Papá", NºDescargas: "513845", Precio: "1.00", Versionado: false, ÚltDescarga: "05-Aug-2021" },
+                        { id: 50, Intérprete: "Pablo Alborán", Canción: "Inséparables", NºDescargas: "421990", Precio: "0.90", Versionado: false, ÚltDescarga: "14-May-2021" },
+                        { id: 60, Intérprete: "Rozalén", Canción: "80 veces", NºDescargas: "355682", Precio: "0.95", Versionado: false, ÚltDescarga: "30-Aug-2021" },
+                        { id: 70, Intérprete: "Pedro Guerra", Canción: "Niños", NºDescargas: "202347", Precio: "1.15", Versionado: false, ÚltDescarga: "23-Sep-2021" },
+                        { id: 80, Intérprete: "Rosalía", Canción: "Me quedo contigo", NºDescargas: "117906", Precio: "1.20", Versionado: true, ÚltDescarga: "31-Jul-2021" }
+                    ],
+                    pager : true,
+                    rowNum : 5
+                });
+                
+            });
+
+            </script>
+    </head>
+    
+    <body>
+        
+        <header>
+            <nav>
+                <a href="Index.html">Inicio</a>
+                <a href="Novedades.html">Novedades</a>
+                <a href="Top3.html">Top 3 </a>
+                <a href="Interpretes.html">Intérpretes</a>
+                <a href="Ranking.html">Ranking</a>
+            <button id="boton"><a href="Formulario.html">¡Suscribete!</a></button> 
+            </nav>
+        </header>
+
+        <h1>Ranking de la revista +Descargados </h1>
+
+        <div id="div">
+
+            <table id="grid"></table>
+
+        </div>
+
+
+        <footer>
+
+            <nav>
+                <a href="#Avisolegal.html">Aviso Legal</a>
+                <a href="#Politicadeprivacidad.html">Política de privacidad</a>
+                <a href="#Politicadecookies.html"> Política de cookies </a>
+            </nav>
+
+        </footer>
+
+    </body>
+</html>
